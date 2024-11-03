@@ -11,3 +11,14 @@ Gaussian Naive Bayes Classifier: It is a probabilistic machine learning algorith
 Random Forest Classifier: Random Forest is an ensemble learning-based supervised machine learning classification algorithm that internally uses multiple decision trees to make the classification. In a random forest classifier, all the internal decision trees are weak learners, and the outputs of these weak decision trees are combined i.e. mode of all the predictions is as the final prediction.
 
 We have come to the final part of this whole implementation, we will be creating a function that takes symptoms separated by commas as input and outputs the predicted disease using the combined model based on the input symptoms.
+
+Note: The symptoms that are given as input to the function should be exactly the same among the 132 symptoms in the dataset.
+
+Final Output: 
+
+{
+    'rf_model_prediction': 'Fungal infection',
+    'naive_bayes_prediction': 'Fungal infection',
+    'svm_model_prediction': 'Fungal infection',
+    'final_prediction': 'Fungal infection'
+}
